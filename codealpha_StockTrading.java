@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/* Stock class */
 class Stock {
     String symbol;
     double price;
@@ -12,7 +11,6 @@ class Stock {
     }
 }
 
-/* Transaction class */
 class Transaction {
     String type;
     String symbol;
@@ -27,7 +25,6 @@ class Transaction {
     }
 }
 
-/* Portfolio class */
 class Portfolio {
     ArrayList<Transaction> transactions = new ArrayList<>();
     double balance = 100000;   // initial balance
@@ -140,4 +137,5 @@ public class codealpha_StockTrading {
 
         sc.close();
     }
+
 }
